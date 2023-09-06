@@ -1,0 +1,61 @@
+/* pages/classify/classify.wxss */
+
+#square{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border:solid black 1.3px;
+  background: #dffadd;
+}
+
+#frame{
+  margin: 100px 20px 20px 20px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: solid black 1.5px;
+  /* width: 380px; */
+  height: 400px; 
+  justify-content: space-around;
+  flex-flow: wrap;
+  align-items: center;
+  background-color: white;
+}
+
+#round{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid rgb(63, 39, 39) 1.3px;
+  background: #cee9d7;
+}
+
+#round1{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: solid white; */
+}
+
+/* 背景 */
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#25e264;
+  background-size:cover;
+  z-index:-1;
+}
+
+.bg-img{
+  width : 100%;
+  height : 100%;
+}
