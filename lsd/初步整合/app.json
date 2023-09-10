@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/talk/talk",
+    "pages/classify/classify",
+    "pages/overview/overview",
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/register/register"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乳腺癌随访",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

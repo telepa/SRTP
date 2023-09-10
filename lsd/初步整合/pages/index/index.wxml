@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="bg">
+<image class="background" src='/image/background.png' mode='scaleToFill'></image>
+</view>
+<view class="b1">
+<view class="yonghu">账号：</view>
+<view class="input-wrap">
+  <input value="{{username}}" bindinput="inputUsername"
+  class="info-input"focus placeholder="请输入账号"/>
+</view>
+
+
+<view class="mima">密码：</view>
+<view class="input-wrap">
+  <input value="{{password}}" bindinput="inputPassword"
+  class="info-input"focus placeholder="请输入密码"/>
+</view>
+
+<button class="action">登录</button>
+<button bindtap="toregiste" class="register">注册</button>
+</view>  
