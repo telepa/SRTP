@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "van-button": "/dist/button/index",
-    "van-action-sheet": "/dist/action-sheet/index"
-  }
-}
