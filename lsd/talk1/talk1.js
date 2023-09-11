@@ -1,4 +1,4 @@
-// pages/talk/talk.js
+// pages/talk1/talk1.js
 Page({
 
   /**
