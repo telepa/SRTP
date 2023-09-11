@@ -1,4 +1,4 @@
-<!--pages/talk/talk.wxml-->
+<!--pages/talk1/talk1.wxml-->
 <view class="bg">
 <image class="background" src='/image/background.png' mode='scaleToFill'></image>
 </view>
