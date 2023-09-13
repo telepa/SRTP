@@ -1,0 +1,29 @@
+<!-- pages/classify/classify.wxml-->
+<view class="background">
+<image class="bg" mode="scaleToFill" src='/image/background.png'></image>
+</view>
+<view id="frame">
+<navigator url="../talk1/talk1"> 
+  <view id="square">生理状况</view>
+</navigator> 
+  <view id="round1"></view>
+<navigator url="../talk2/talk2"> 
+  <view id="square">家庭状况</view>
+</navigator> 
+  <view id="round1"></view>
+<navigator url="../talk5/talk5">
+  <button id="round" bindtap="totalk5">附加关注</button>
+</navigator> 
+<!--到时候可以再试一下，我试了好像不太行，也不知道为什么只有这个跳不过去
+<navigator url="../talk5/talk5">
+  <view id="round" bindtap="totalk5">附加关注</view>
+</navigator>-->
+  <view id="round1"></view>
+<navigator url="../talk3/talk3">
+  <view id="square">情感状况</view>
+</navigator>
+  <view id="round1"></view>
+<navigator url="../talk4/talk4">
+  <view id="square">功能状况</view>
+</navigator>
+</view>
