@@ -1,0 +1,118 @@
+<!--pages/talk5/talk5.wxml-->
+<view class="bg">
+<image class="background" src='/image/background.png' mode='scaleToFill'></image>
+</view>
+<scroll-view class="back" scroll-y="true">
+   <view class="qa1">
+      <image class="head1" src='/image/star2.png'></image> 
+      <button class="talk1" bindtap="onTap1"> 我一直气促</button> 
+
+      <van-action-sheet show="{{show1}}"  actions="{{actions}}"         bind:close="onClose1"  bind:select="onSelect1"/>
+
+      <view class="answer" hidden="{{an1hi}}">{{an51}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an1hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa2" hidden="{{hidden12}}">
+      <image class="head2" src='/image/star2.png'></image> 
+      <button class="talk2" bindtap="onTap2"> （由于疾病）我在意自己的穿着打扮</button> 
+
+      <van-action-sheet show="{{show2}}"  actions="{{actions}}"         bind:close="onClose2"  bind:select="onSelect2"/>
+
+      <view class="answer" hidden="{{an2hi}}">{{an52}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an2hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa3" hidden="{{hidden23}}">
+      <image class="head3" src='/image/star2.png'></image> 
+      <button class="talk3" bindtap="onTap3"> 我的一只或两只胳膊肿胀或无力</button> 
+
+      <van-action-sheet show="{{show3}}"  actions="{{actions}}"         bind:close="onClose3"  bind:select="onSelect3"/>
+
+      <view class="answer" hidden="{{an3hi}}">{{an53}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an3hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa4" hidden="{{hidden34}}">
+      <image class="head4" src='/image/star2.png'></image> 
+      <button class="talk4" bindtap="onTap4">我感到在性方面有吸引力</button> 
+
+      <van-action-sheet show="{{show4}}"  actions="{{actions}}"         bind:close="onClose4"  bind:select="onSelect4"/>
+
+      <view class="answer" hidden="{{an4hi}}">{{an54}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an4hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa5" hidden="{{hidden45}}">
+      <image class="head5" src='/image/star2.png'></image> 
+      <button class="talk5" bindtap="onTap5">脱发使我烦恼</button> 
+
+      <van-action-sheet show="{{show5}}"  actions="{{actions}}"         bind:close="onClose5"  bind:select="onSelect5"/>
+
+      <view class="answer" hidden="{{an5hi}}">{{an55}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an5hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa6" hidden="{{hidden56}}">
+      <image class="head6" src='/image/star2.png'></image> 
+      <button class="talk6" bindtap="onTap6">我担心家里其他人有一天会得和我一样的疾病</button> 
+
+      <van-action-sheet show="{{show6}}"  actions="{{actions}}"         bind:close="onClose6"  bind:select="onSelect6"/>
+
+      <view class="answer" hidden="{{an6hi}}">{{an56}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an6hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa7" hidden="{{hidden67}}">
+      <image class="head7" src='/image/star2.png'></image> 
+      <button class="talk7" bindtap="onTap7">我担心紧张对我的疾病造成的影响</button> 
+
+      <van-action-sheet show="{{show7}}"  actions="{{actions}}"         bind:close="onClose7"  bind:select="onSelect7"/>
+
+      <view class="answer" hidden="{{an7hi}}">{{an57}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an7hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa8" hidden="{{hidden78}}">
+      <image class="head8" src='/image/star2.png'></image> 
+      <button class="talk8" bindtap="onTap8">体重的变化使我烦恼</button> 
+
+      <van-action-sheet show="{{show8}}"  actions="{{actions}}"         bind:close="onClose8"  bind:select="onSelect8"/>
+
+      <view class="answer" hidden="{{an8hi}}">{{an58}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an8hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa9" hidden="{{hidden89}}">
+      <image class="head9" src='/image/star2.png'></image> 
+      <button class="talk9" bindtap="onTap9">我仍能感到像一个女人</button> 
+
+      <van-action-sheet show="{{show9}}"  actions="{{actions}}"         bind:close="onClose9"  bind:select="onSelect9"/>
+
+      <view class="answer" hidden="{{an9hi}}">{{an59}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an9hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa10" hidden="{{hidden910}}">
+      <image class="head10" src='/image/star2.png'></image> 
+      <button class="talk10" bindtap="onTap10">我的身体的一部分很明显能感到疼痛</button> 
+
+      <van-action-sheet show="{{show10}}"  actions="{{actions}}"         bind:close="onClose10"  bind:select="onSelect10"/>
+
+      <view class="answer" hidden="{{an10hi}}">{{an510}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an10hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+    <button class="finish" hidden="{{finish}}" bindtap="onload">完成</button>
+    <view class="white"></view>
+</scroll-view>
