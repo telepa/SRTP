@@ -1,0 +1,116 @@
+/* pages/overview/overview.wxss */
+
+/* 文字排版 */
+.center-bold{
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  height: auto;
+}
+
+.tmp{
+  height: 10px;
+  /* width: 10px */
+}
+
+.classi{
+  margin: 10px;
+  margin-bottom: -2px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.mytext{
+  margin: 8px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.center{
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  font-size: 13px;
+  justify-content: center;
+  align-content: center;
+}
+
+/* 框架 */
+#frame{
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  width: auto;
+  height: 1300rpx;
+  border: solid black 1.5px;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/* 分割线 */
+/*分割线样式*/
+.divLine{
+  display: flex;
+  background: #E0E3DA;
+  justify-content: center;
+  width: 90%;
+  height: 5rpx;
+ }
+
+/*背景图片*/
+.bg{
+  height:100%;
+  width:100%;
+  position: absolute;
+  z-index: -100;
+  background-color: black;
+}
+
+.background{
+  height:100%;
+  width:100%;
+  top:0;
+  position: absolute;
+  /* background-color:rgb(189, 233, 123); */
+}
+
+/* 表格 */
+
+.table {
+  display: flex;
+  flex-direction: column;     /* 排列形式: 向下 */
+  margin-top: 15px;
+}
+
+.tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.th, .td {  /* 公有的属性 */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;            /* 自动换行 */
+  width: 50%;					/* 4个25%相加刚好100% */
+  text-align: center;         /* 文本居中 */
+  justify-content:center;     /* 主轴居中 */
+  align-items: center;        /* 交叉轴居中 */
+  border-top: 1px solid #dadada;      /* 单元格上线框 */
+  border-bottom: 1px solid #dadada;   /* 单元格下线框 */
+  border-left: 1px solid #dadada;     /* 单元格左线框 */
+  border-right: 1px solid #dadada;    /* 单元格右线框 */
+}
+
+.th {
+  font-weight: 800;           /* 字体加重 */
+  background-color:#B3CCF4;   /* 背景色 */
+}
+
+.td {
+  font-weight: 500;
+  background-color:#edf3e9;   /* 背景色 */
+}
