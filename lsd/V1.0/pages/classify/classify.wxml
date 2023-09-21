@@ -1,0 +1,15 @@
+<!-- pages/classify/classify.wxml-->
+<view class="background">
+<image class="bg" mode="scaleToFill" src='/image/background.png'></image>
+</view>
+<view id="frame">
+  <button id="square" bindtap="onload1">生理状况</button>
+  <view id="round1"></view>
+  <button id="square" bindtap="onload2">家庭状况</button>
+  <view id="round1"></view>
+  <button id="round" bindtap="onload5">附加关注</button>
+  <view id="round1"></view>
+  <button id="square" bindtap="onload3">情感状况</button>
+  <view id="round1"></view>
+  <button id="square" bindtap="onload4">功能状况</button>
+</view>
