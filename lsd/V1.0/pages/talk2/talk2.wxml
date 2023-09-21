@@ -1,0 +1,85 @@
+<!--pages/talk2/talk2.wxml-->
+<view class="bg">
+<image class="background" src='/image/background.png' mode='scaleToFill'></image>
+</view>
+<scroll-view class="back" scroll-y="true">
+   <view class="qa1">
+      <image class="head1" src='/image/star2.png'></image> 
+      <button class="talk1" bindtap="onTap1"> 我和朋友们很接近</button> 
+
+      <van-action-sheet show="{{show1}}"  actions="{{actions}}"         bind:close="onClose1"  bind:select="onSelect1"/>
+
+      <view class="answer" hidden="{{an1hi}}">{{an21}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an1hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa2" hidden="{{hidden12}}">
+      <image class="head2" src='/image/star2.png'></image> 
+      <button class="talk2" bindtap="onTap2"> 我在感情上得到了家人的支持</button> 
+
+      <van-action-sheet show="{{show2}}"  actions="{{actions}}"         bind:close="onClose2"  bind:select="onSelect2"/>
+
+      <view class="answer" hidden="{{an2hi}}">{{an22}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an2hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa3" hidden="{{hidden23}}">
+      <image class="head3" src='/image/star2.png'></image> 
+      <button class="talk3" bindtap="onTap3"> 我得到朋友的支持</button> 
+
+      <van-action-sheet show="{{show3}}"  actions="{{actions}}"         bind:close="onClose3"  bind:select="onSelect3"/>
+
+      <view class="answer" hidden="{{an3hi}}">{{an23}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an3hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa4" hidden="{{hidden34}}">
+      <image class="head4" src='/image/star2.png'></image> 
+      <button class="talk4" bindtap="onTap4">我的家人已能正视我患病这一事实</button> 
+
+      <van-action-sheet show="{{show4}}"  actions="{{actions}}"         bind:close="onClose4"  bind:select="onSelect4"/>
+
+      <view class="answer" hidden="{{an4hi}}">{{an24}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an4hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa5" hidden="{{hidden45}}">
+      <image class="head5" src='/image/star2.png'></image> 
+      <button class="talk5" bindtap="onTap5">我高兴和家里人谈论我的病情</button> 
+
+      <van-action-sheet show="{{show5}}"  actions="{{actions}}"         bind:close="onClose5"  bind:select="onSelect5"/>
+
+      <view class="answer" hidden="{{an5hi}}">{{an25}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an5hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa6" hidden="{{hidden56}}">
+      <image class="head6" src='/image/star2.png'></image> 
+      <button class="talk6" bindtap="onTap6">我与自己的配偶（或给我主要支持的人）很亲近</button> 
+
+      <van-action-sheet show="{{show6}}"  actions="{{actions}}"         bind:close="onClose6"  bind:select="onSelect6"/>
+
+      <view class="answer" hidden="{{an6hi}}">{{an26}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an6hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+   <view class="qa7" hidden="{{hidden67}}">
+      <image class="head7" src='/image/star2.png'></image> 
+      <button class="talk7" bindtap="onTap7">我对自己的性生活感到满意</button> 
+
+      <van-action-sheet show="{{show7}}"  actions="{{actions}}"         bind:close="onClose7"  bind:select="onSelect7"/>
+
+      <view class="answer" hidden="{{an7hi}}">{{an27}}</view>
+      <view class="anhead">
+      <image class="ad" hidden="{{an7hi}}" src='/image/star2.png'></image>
+      </view>
+   </view>
+    <button class="finish" hidden="{{finish}}" bindtap="onload">完成</button>
+    <view class="white"></view>
+</scroll-view>
