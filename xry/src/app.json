@@ -1,0 +1,39 @@
+{
+  "lazyCodeLoading": "requiredComponents", 
+  "pages": [
+    "pages/login/main",
+    "pages/information/main",
+    "pages/operationdate/main",
+    "pages/isoperation/main",
+    "pages/inputnumber/main",
+    "pages/inputname/main",
+    "pages/inputgender/main",
+    "pages/inputage/main",
+    "pages/inputlanguage/main",
+    "pages/register/main",
+    "pages/classify/main",
+    "pages/talk5/main",
+    "pages/talk4/main",
+    "pages/talk3/main",
+    "pages/talk1/main",
+    "pages/talk2/main",
+    "pages/firstview/main",
+    "pages/picture6/main",
+    "pages/picture5/main",
+    "pages/picture4/main",
+    "pages/picture3/main",
+    "pages/picture2/main",
+    "pages/picture1/main",
+    "pages/my/main",
+    "pages/overview/main",
+    "pages/procedure/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+ 
+ 
+}

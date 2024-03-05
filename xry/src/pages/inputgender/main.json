@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "乳腺癌语音随访助手",
+  "usingComponents": {
+    "van-picker": "/static/vant/picker/index",
+    "van-toast": "/static/vant/toast/index"
+}
+
+}
