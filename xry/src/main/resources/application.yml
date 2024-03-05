@@ -1,0 +1,37 @@
+server:
+  port: 8442
+spring:
+  datasource:
+    name: myapp  #数据库名
+    url: jdbc:mysql://localhost:3306/myapp #url
+    username: root  #用户名
+    password: 123456  #密码
+    driver-class-name: com.mysql.cj.jdbc.Driver  #数据库链接驱动
+  application:
+    name: springboot-weixin
+  profiles:
+    active: dev
+  servlet:
+      multipart:
+        # 启用
+        enabled: true
+        # 上传文件单个限制
+        max-file-size: 5MB
+        # 总限制
+        max-request-size: 6MB
+      file:
+        uploadFolder: C://test/
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml  #配置映射文件
+  type-aliases-package: com.example.myapp.pojo #配置实体类
+
+#wx.miniapp.appid:wxaaed0f385afcbca1
+#wx.miniapp.appsecret:be2d892041edf5559a1d9aa707a6c8e1
+weixin:
+  appid: 'appid'
+  secret: '应用密钥'
+
+
+
